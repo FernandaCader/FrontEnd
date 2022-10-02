@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/arg-prog-final-cader-fernanda",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
