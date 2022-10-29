@@ -1,34 +1,42 @@
-.row{
-    padding: 20px;
-}
-div{
-    background-color: #F4CDE5;
-    text-align: center;
-}
-/* estilo perfil */
-@media (min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-        width: 15%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top:645px;
+    .row{
+        padding: 20px;
     }
-}
-@media (max-width: 575px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 35%;
-        top:700px;
+    div{
+        background: #F4CDE5;
+        text-align: center;
     }
-}
-
-/* etiqueta nombre */
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
-}
+    
+    /*estilo de la foto de perfil*/
+    
+    @media (min-width: 576px){
+        #fotoDePerfil{
+            border-radius: 20%;
+            box-shadow: 3px 3px 3px 3px gray;
+            
+        }
+    
+        .descripcion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        #fotoDePerfil {
+            position: absolute;
+            width: 30%;
+            border-radius: 20%;
+            box-shadow: 3px 3px 3px 3px grey;
+            left: 33%;
+            top: 950px;
+        }
+    }
+    
+    /*etiqueta nombre*/
+    
+    #nombre{
+        font-size: x-large;
+        font-weight: bold;
+        margin-top: 30%; 
+    }
